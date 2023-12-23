@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import openai
 import time
 
@@ -20,3 +21,8 @@ print(get_gpt_response(test_prompt))
 
 
 
+=======
+c  = [1,2,3,4]
+
+print(c)
+>>>>>>> 35693d5acd6ca05e0179dc955c5d55b87c62e357
