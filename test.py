@@ -1,10 +1,11 @@
-<<<<<<< HEAD
 import openai
 import time
+from dotenv import load_dotenv
+import os 
 
 # OpenAI API 키를 설정합니다.
-
-openai.api_key = "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"
+load_dotenv()
+openai.api_key = os.getenv('OPENAI_API_KEY')
 
 def get_gpt_response(prompt):
     time.sleep(1)  # 요청 사이에 1초 대기합니다.
@@ -21,8 +22,3 @@ print(get_gpt_response(test_prompt))
 
 
 
-=======
-c  = [1,2,3,4]
-
-print(c)
->>>>>>> 35693d5acd6ca05e0179dc955c5d55b87c62e357
